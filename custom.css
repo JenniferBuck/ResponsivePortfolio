@@ -1,0 +1,95 @@
+/***** =Reset/Normalize/Globals ******/
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+/***** =Typography ******/
+header h1 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+main h2 {
+	color: teal !important;
+}
+
+footer {
+	text-align: center;
+	font-size: 80%;
+	color: lightgrey;
+}
+
+@media screen and (min-width: 768px) {
+
+	header h1 {
+		margin-left: 4vw;
+	}
+
+}
+
+/****** =Nav ******/
+.nav {
+	justify-content: space-between;
+}
+
+.nav span {
+	padding: .5rem 0;
+}
+
+.navbar,
+.navbar-brand {
+	/* padding-top: 0;
+    padding-bottom: 0; */
+	padding: 0;
+}
+
+.navbar {
+	display: block;
+}
+
+.nav-link {
+	text-shadow: black;
+	color: black;
+}
+
+/****** =Layout ******/
+body {
+	background-color: gainsboro;
+	border: 2px solid black;
+	overflow-y: scroll;
+	min-height: 100vh;
+}
+
+header {
+	background-color: white;
+}
+
+main {
+	margin-bottom: 12em;
+	padding-top: 2em;
+	/* overflow-y: scroll; */
+	height: 100vh;
+}
+
+footer {
+	background-color: darkgray;
+	height: 8em;
+	display: flex;
+	align-items: center;
+	margin-top: 2em;
+	border: 2px solid black;
+	border-top: 5px solid teal;
+}
+
+@media screen and (min-width: 768px) {
+
+	img {
+		float: left;
+		width: 33.3333vw;
+		margin-right: 1.5em;
+	}
+
+}
